@@ -30,16 +30,15 @@ This project reads sales data from a small SQLite database (`sales_data.db`) and
 1. Make sure the following Python packages are installed:
    ```bash
    pip install pandas matplotlib
-2.Place both main.py and new merged_orders.sql in the same directory.
+2. Place both main.py and new merged_orders.sql in the same directory.
 
-3.Run the script:
-  ```bash
-  python main.py
-```
+3. Run the script:
+   ```bash
+   python main.py
 
-4.The script will:
-- Create a new sales_data.db database
-- Load the SQL from new merged_orders.sql
-- Query for sales summary
-- Display the results in the terminal
-- Save a bar chart as sales_chart.png
+4. The script will:
+ - Create a new sales_data.db database
+ - Load the SQL from new merged_orders.sql
+ - Query for sales summary
+ - Display the results in the terminal
+ - Save a bar chart as sales_chart.png
